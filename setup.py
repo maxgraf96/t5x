@@ -79,7 +79,7 @@ setuptools.setup(
         'tpu': [f'jax[tpu] >= {_jax_version}'],
         'gpu': [
             'ipdb==0.13.9',
-            'fasttext==0.9.2',
+            #'fasttext==0.9.2',
             'pysimdjson==5.0.2',
             'pytablewriter==0.64.2',
             'gdown==4.5.3',
